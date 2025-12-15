@@ -1,21 +1,27 @@
-# Project Title
-  Korean Teachers' Credit Union(한국교직원공제회)
+# Korea Teachers' Credit Union (Clone Project)
 
 ## Overview
-  Designing and publishing the website of the mutual aid association
+A clone project inspired by the Korea Teachers' Credit Union website. Focused on UI/UX design and frontend development using HTML, CSS, JavaScript, jQuery, and Bootstrap.
 
 ## Role
-  Full design and front-end publishing
+UI/UX Designer & Frontend Developer
 
-## Work process
-  Idea Planning and Concept Setting
-  Wireframe and Design Draft Production
-  Implement layout with HTML/CSS
-  Add Dynamic Elements with JacaScript/jQuery
-  Reactive Design Implementation
+## Tech Stack
+HTML5, CSS3, JavaScript, jQuery, Bootstrap
 
-## Built With
-  HTML5, CSS3, JavaScript, jQuery
+## Process
+- Concept ideation and planning
+- Wireframe and design mockup creation
+- Layout implementation with HTML/CSS
+- Dynamic elements added with JavaScript/jQuery
+- Responsive design implementation
+
+## Contribution
+80% — UI/UX Design, Frontend Development, QA & Debugging
+
+## Links
+- [View Live Project](https://your-deployed-link.com)
+- [View Portfolio](https://hyeminc0706.github.io/Portfolio_1214_original/)
 
 ## Initial Work
   https://www.ktcu.or.kr/index
