@@ -34,7 +34,7 @@ The goal was to analyze and recreate a real-world layout to better understand st
 - Added interactive elements with JavaScript/jQuery  
 - Conducted testing and refinement
 <figure>
-  <img src="./assets/wireframe.png" width="600" alt="Wireframe sketch showing layout structure and spacing logic">
+  <img src="./assets/와이어프레임_최혜민_041624.jpeg" width="600" alt="Wireframe sketch showing layout structure and spacing logic">
   <figcaption>Wireframe sketch showing layout structure and spacing logic.</figcaption>
 </figure>
 
