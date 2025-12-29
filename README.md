@@ -1,4 +1,4 @@
-# Korea Teachers' Credit Union Clone  
+# Korea Teachers' Credit Union Clone Project
 A desktop-focused clone project built to study layout structure and UI interactions.  
 This project replicates the original site’s visual hierarchy and navigation flow using custom HTML/CSS and JavaScript.
 
