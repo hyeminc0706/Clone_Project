@@ -31,9 +31,9 @@ The goal was to analyze and recreate a real-world layout to better understand st
 - Strengthened debugging and browser testing skills
 
 ## Live Demo & Source  
-- Live Demo: [https://hyeminc0706.github.io/Clone_Project/](https://hyeminc0706.github.io/Clone_Project/)
-- GitHub Repo: [[link]  ](https://github.com/hyeminc0706/Clone_Project)
-- Case Study: [[link]](https://little-gauge-2b1.notion.site/KTCU-Clone-Layout-Structure-Study-2d82c743869e80038e3ccc11730ebbab?pvs=73)
+- Live Demo: [[link](https://hyeminc0706.github.io/Clone_Project/)]
+- GitHub Repo: [[link](https://github.com/hyeminc0706/Clone_Project)]
+- Case Study: [[link](https://little-gauge-2b1.notion.site/KTCU-Clone-Layout-Structure-Study-2d82c743869e80038e3ccc11730ebbab?pvs=73)]
 
 ## Installation
 ```bash
