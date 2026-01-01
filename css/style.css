@@ -143,11 +143,11 @@ div#header span.rightmenu button:nth-child(2){
   background-color: #f7f8fb;
   z-index: 99;
   height: 90px;
-  width: 1600px;
+  width: 1331px;
   position: fixed;
   top: 0;
   left: 0;
-  padding-left: 14.5vw;
+  padding-left: 189px;
 }
 #sub-header h1 {
   margin: 0;
@@ -190,14 +190,16 @@ div#header span.rightmenu button:nth-child(2){
   padding-left: 0;
 }
 #sub-header span.rightmenu{
-  justify-self: left;
+  justify-self: right;
   grid-column: 3;
+  padding-left: 90px;
 }
 #sub-header span.rightmenu button{
   display: inline-block;
   width: 48px;
   height: 48px;
   font-size: 0;
+  padding-right: 20px;
 }
 #sub-header span.rightmenu button:first-child{
   background: url(../img/search.png) no-repeat center; 
@@ -561,7 +563,9 @@ main section#product div.wrap article.detail{
   height: 265px;
   background-color: #fff;
   border-radius: 11px;
-  box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.04);
+}
+main section#product div.wrap article.detail:hover{
+  box-shadow: 12px 12px 10px 0 rgba(0, 0, 0, 0.04);
 }
 main section#product div.wrap article.detail a.block {
   height: 100%;
@@ -692,14 +696,10 @@ section#service div.wrap ul.serviceAni2 {
 section#service div.wrap ul li.s2 {
   width: calc(25% - 18px);
   height: calc((100% - 18px) / 2);
-  margin: 0 8px;
-  /*! opacity: 1; */
-  /*! transition: all 0.25s ease-out; */
-  /*! transition-delay: 0s; */
-  /*! transform: translate(0,0); */
+  margin: 8px;
 }
-section#service div.wrap ul li.s2:nth-child(n+5){
-  margin-top: 16px;
+section#service div.wrap ul li.s2:hover {
+  box-shadow: 12px 12px 10px 0 rgba(0, 0, 0, 0.04);
 }
 section#service div.wrap ul li.s2 a {
   height: 100%;
@@ -712,7 +712,6 @@ section#service div.wrap ul li.s2 a {
   border-radius: 12px;
   font-size: 17px;
   font-weight: 600;
-  box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.04);
 }
 section#service div.wrap ul li.s2 a::before {
   content: "";
@@ -863,7 +862,7 @@ section#rolling  p{
 /* 로그인 */
 aside{
   width: 295px;
-  right: 188px;
+  left: 1215px;
   position: fixed;
   top: 210px;
 }
@@ -876,7 +875,7 @@ aside div.login {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto auto auto;
     position: absolute;
     top: -12px;
     box-shadow: -8px -8px 16px 0 #fff, 8px 8px 16px 0 rgba(0, 0, 0, 0.1);
@@ -890,14 +889,14 @@ aside div.login h2 {
   align-self: center;
   font-size: 21px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 aside div.login span {
   display: flex;
   width: 100%;
   height: 45px;
   background-color: #999;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0;
   grid-row: 2;
   grid-column: 1;
@@ -916,6 +915,7 @@ aside div.login span button:first-child {
 }
 .current-login{
   background-color: #fff;
+  border-radius: 10px;
 }
 aside div.login div.in{
   grid-row: 3;
@@ -1011,27 +1011,53 @@ aside div.login div.id{
  width: 100%;
  grid-row: 3;
  grid-column: 1;
+ padding-top: 12px;
 }
 aside div.login div.id form{
   
 }
 aside div.login div.id form input:not(:nth-of-type(3)){
-  width: 100%;
+  width: 233px;
+  height: 39px;
   margin-bottom: 15px;
+  text-indent: 10px;
+  font-size: 18px;
+  border-color: oldlace;
 }
 aside div.login div.id form input:nth-of-type(3){
   margin-right: 10px;
   margin-bottom:10px;
 }
 aside div.login div.id form button:nth-of-type(1){
-  display: block;
-  background-color: blue;
+  width: 236px;
+  min-width: 216px;
+  height: 48px;
+  font-size: 17px;
   color: #fff;
-  padding: 10px 47px;
-  margin: 0 auto;
-  border-radius: 7px;
-  margin-bottom: 13px;
+  background-color: #21409A;
+  border: 1px solid transparent;
+  border-radius: 40px;
+  vertical-align: middle;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
+aside div.login div.id form button:nth-of-type(2){
+  display: block;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  color: #707070;
+  letter-spacing: -0.1px;
+  display: flex;
+  justify-content: center;
+}
+
 /* fam */
 aside div.fam {
  margin-top: 470px;
